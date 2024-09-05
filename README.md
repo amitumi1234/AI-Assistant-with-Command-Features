@@ -4,11 +4,13 @@
 
 This Streamlit app functions as an AI assistant capable of performing a variety of tasks based on user commands. It allows users to:
 
-- **Play Music**: Type `play [song name]` to play a song from YouTube.
-- **Open Websites**: Type `open [website]` (YouTube, LinkedIn, etc.).
-- **Search Google**: Type `search [query]` to perform a Google search.
-- **Check the Weather**: Type `the weather of [city]` to get the current weather.
-- **Chat with Assistant**: Type any question or statement to interact with the assistant.
+- **Check the Weather**: Type `the weather of [city]` to get the current weather information for a specified city.
+- **Chat with Assistant**: Type any question or statement to interact with the AI assistant.
+
+**Note:** Due to some limitations in Streamlit, the following features are currently not functional:
+- **Play Music**: The command `play [song name]` to play a song from YouTube.
+- **Open Websites**: The command `open [website]` (e.g., YouTube, LinkedIn).
+- **Search Google**: The command `search [query]` to perform a Google search.
 
 ## Features
 
@@ -36,4 +38,4 @@ Type any question or statement to chat with the AI assistant. The assistant uses
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   https://github.com/amitumi1234/AI-Assistant-with-Command-Features.git

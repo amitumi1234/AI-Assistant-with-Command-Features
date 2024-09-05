@@ -46,9 +46,8 @@ def open_music(music_name):
 
 # Search Function
 def search(search_query):
-    say("Searching Google...")
     search_url = f"https://www.google.com/search?q={search_query.replace(' ', '+')}"
-    webbrowser.open(search_url)
+    st.markdown(f"[searching {search_query} on Google...]({search_url})")
 
 # Weather Function
 def weather(city):

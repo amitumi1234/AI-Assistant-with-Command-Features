@@ -42,16 +42,8 @@ def open_website(site_name, site_url):
 
 # Play Music Function
 def open_music(music_name):
-    say(f"Playing {music_name} song...")
-    results = VideosSearch(music_name, limit=1).result()
-    try:
-        if results and len(results) > 0:
-            video_url = f"https://www.youtube.com/results?search_query={music_name}" 
-            webbrowser.open(video_url)
-        else:
-            st.write("No search results found for the given music name.")
-    except Exception as e:
-        st.write(f"Error: {e}")
+    search_url = f"https://www.youtube.com/results?search_query={music_name}"
+    st.markdown(f"[Play {music_name} on YouTube]({search_url})")
 
 # Search Function
 def search(search_query):

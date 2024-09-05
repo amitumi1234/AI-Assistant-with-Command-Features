@@ -6,8 +6,6 @@ This Streamlit app functions as an AI assistant capable of performing a variety 
 
 - **Check the Weather**: Type `the weather of [city]` to get the current weather information for a specified city.
 - **Chat with Assistant**: Type any question or statement to interact with the AI assistant.
-
-**Note:** Due to some limitations in Streamlit, the following features are currently not functional:
 - **Play Music**: The command `play [song name]` to play a song from YouTube.
 - **Open Websites**: The command `open [website]` (e.g., YouTube, LinkedIn).
 - **Search Google**: The command `search [query]` to perform a Google search.

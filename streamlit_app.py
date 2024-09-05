@@ -37,8 +37,7 @@ def chatbot(prompt_input):
 
 # Open Website Function
 def open_website(site_name, site_url):
-    say(f"Opening {site_name}...")
-    webbrowser.open(site_url)
+    st.markdown(f"[Open {site_name}]({site_url})")
 
 # Play Music Function
 def open_music(music_name):

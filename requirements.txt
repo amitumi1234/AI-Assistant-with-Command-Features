@@ -1,0 +1,7 @@
+streamlit
+os-sys
+replicate
+webbrowser
+requests
+jsonlib
+youtubesearchpython

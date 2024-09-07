@@ -86,6 +86,12 @@ def process_command(command):
 
 # Main Streamlit logic
 def main():
+    st.set_page_config(
+        page_title="AI Assistant with Command Features",
+        page_icon="🤖",
+        layout="centered",
+        initial_sidebar_state="expanded"
+    )
     st.title("AI Assistant with Command Features")
     
     # Add a sidebar for navigation and information
